@@ -80,6 +80,7 @@ a {
   border: none;
   color: #7342d6;
   display: none;
+  z-index: 100;
 }
 
 .menu__backdrop {
@@ -426,7 +427,7 @@ a {
 @media (max-width: 550px) {
  
  .header__title {
-  margin-top: 50px;
+  margin-top: 85px;
  }
  
   .nav__links {
