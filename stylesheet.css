@@ -424,6 +424,11 @@ a {
 /* SMALL PHONES, LARGE SMARTPHONES */
 
 @media (max-width: 550px) {
+ 
+ .header__title {
+  margin-top: 50px;
+ }
+ 
   .nav__links {
     display: none;
   }
@@ -443,4 +448,5 @@ a {
   .header__img--wrapper {
     padding: 0px;
   }
+
 }
